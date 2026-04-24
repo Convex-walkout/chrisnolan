@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Explorer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="C:\Users\spectre x360 13\Downloads/" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">🎬 Christopher Nolan's Movie Explorer</h1>
+        <nav class="nav">
+          <a href="#" class="nav-link active">Discover</a>
+          <a href="#" class="nav-link">Watchlist</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="search-section">
+        <div class="container">
+          <div class="search-box">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search movies..."
+            />
+            <button class="search-btn">Search</button>
+          </div>
+          <div class="filters">
+            <button class="filter-btn active">All</button>
+            <button class="filter-btn">Action</button>
+            <button class="filter-btn">Comedy</button>
+            <button class="filter-btn">Drama</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="movies-section">
+        <div class="container">
+          <div class="movies-grid">
+            <!-- Movie Card -->
+            <article class="movie-card">
+              <div class="movie-poster">
+                <img src="/Images/images.jpg" alt="Movie poster" />
+                <button class="watchlist-btn">+</button>
+              </div>
+              <div class="movie-info">
+                <h3 class="movie-title">Inception</h3>
+                <div class="movie-meta">
+                  <span class="movie-year">2010</span>
+                  <span class="movie-rating">⭐ 8.8</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- My Articles -->
+            <article class="movie-card">
+              <div class="movie-poster">
+                <img src="/Images/Dark knight.jpg" alt="Movie poster" />
+                <button class="watchlist-btn">+</button>
+              </div>
+              <div class="movie-info">
+                <h3 class="movie-title">The Dark Knight</h3>
+                <div class="movie-meta">
+                  <span class="movie-year">2008</span>
+                  <span class="movie-rating">⭐ 9.0</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="movie-card">
+              <div class="movie-poster">
+                <img src="/Images/Inter.jpg" alt="Movie poster" />
+                <button class="watchlist-btn">+</button>
+              </div>
+              <div class="movie-info">
+                <h3 class="movie-title">Interstellar</h3>
+                <div class="movie-meta">
+                  <span class="movie-year">2014</span>
+                  <span class="movie-rating">⭐ 8.6</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Footer Section-->
+    <footer class="Footer">Our Services</footer>
+  </body>
+</html>
